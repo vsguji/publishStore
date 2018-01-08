@@ -1,0 +1,23 @@
+//
+//  BasicInfoView.h
+//  darongtong
+//
+//  Created by liuxin on 2017/7/1.
+//  Copyright © 2017年 darongtong. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "ZYQAssetPickerController.h"
+@interface BasicInfoView : UIView<UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIActionSheetDelegate,ZYQAssetPickerControllerDelegate>
+@property(nonatomic,strong)UIImageView * headImgV;//头像
+@property(nonatomic,copy)NSString * storeID;      //店铺id
+@property(nonatomic,copy)NSString * product;      //产品
+@property(nonatomic,copy)NSString * AD;           //广告词
+@property(nonatomic,copy)NSString * firstAttribute;//主属性
+@property(nonatomic,copy)NSString * secondAttribute;//次属性
+@property(nonatomic,copy)NSString * thirdAttribute;//再次属性
+@property(nonatomic,copy)NSString * storeName;      //店铺id
+@property(nonatomic,strong)UIImageView * licenseImgV;//执照img
+@property(nonatomic,copy)NSString * businessCategory;//经营类别
+@property(nonatomic,copy)NSString * belongCategory;//所属类别
+@end

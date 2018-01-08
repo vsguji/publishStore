@@ -1,0 +1,533 @@
+{
+    "partnerForm": [
+                    {
+                    "photo": {
+                    "modelType": "RTPartnerIcon",
+                    "labStr": "",
+                    "labIcon": "",
+                    "labDetail": "投运营合伙人拍照",
+                      }
+                    },
+                    {
+                    "productOne": {
+                    "modelType": "RTFormEntityProductOne",
+                    "labIcon": "form_section_1",
+                    "labTitle":"投资一个项目组的货币资本",
+                    "labDetail": "多少钱咋投"
+                     }
+                    },
+                    {
+                    "modelType": "RTPartnerFieldsCustomer",
+                    "fields2": [
+                                {
+                                "modelType": "RTPartnerFieldsTrade1",
+                                "labTitle": "投资一个项目组的货币投资模式选择",
+                                "fieldPlaceholder": "种子|天使|a、b、c、d、e...风险投资",
+                                "fieldRightStr": "货币投资",
+                                "fieldRightIcon": "form_pen",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                },
+                                {
+                                "modelType": "RTPartnerFieldsTrade2",
+                                "labTitle": "货币人总共货币资金池额度范围",
+                                "fieldPlaceholder": "200至~5000",
+                                "fieldLeftIcon": "form_monery",
+                                "fieldRightStr": "万元",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                },
+                                {
+                                "modelType": "RTPartnerFieldsTrade2",
+                                "labTitle": "具体投资金额",
+                                "fieldPlaceholder": "请输入",
+                                "fieldLeftIcon": "form_monery",
+                                "fieldRightStr": "万元",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                }
+                                ]
+                    },
+                    {
+                    "entityProduct": {
+                    "modelType": "RTFormEntityProduct",
+                    "labIcon": "form_section_2",
+                    "labDetail": "投向哪些行业"
+                     }
+                    },
+                    {
+                    "modelType": "RTPartnerFieldsTrade0",
+                    "fields3": [
+                                {
+                                "modelType": "RTMoneyFieldsTrade1",
+                                "labTitle": "主要投向行业",
+                                "fieldPlaceholder": "苍安大农",
+                                "fieldRightStr": "行业",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                },
+                                {
+                                "modelType": "RTMoneyFieldsTrade2",
+                                "labTitle": "次要投向行业",
+                                "fieldLeftIcon": "form_monery",
+                                "fieldPlaceholder": "衡治信息 > 教育",
+                                "fieldRightStr": "行业",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                },
+                                {
+                                "modelType": "RTMoneyFieldsTrade3",
+                                "labTitle": "再次要投向行业",
+                                "fieldLeftIcon": "form_monery",
+                                "fieldPlaceholder": "衡治信息 > 互联网+",
+                                "fieldRightStr": "行业",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                }
+                                ]
+                    },
+                    {
+                    "business": {
+                    "modelType": "RTFormBusiness",
+                    "labTitle": "可投风向",
+                    "labLIcon": "arrow-left",
+                    "labRIcon": "arrow-right",
+                    "labIcon": "form_section_3",
+                    "labDetail": "该货币作为组合股权的资本落地股份制企业的资本限时"
+                     }
+                    },
+                    {
+                    "modelType": "RTPartnerFieldsTrade0",
+                    "fields2": [
+                                {
+                                "modelType": "RTPartnerFieldsTrade1",
+                                "labTitle": "限时在什么时间段内完成组合股权投入货币",
+                                "fieldPlaceholder": "自2017年5月1日始至2017年9月1日前",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                },
+                                {
+                                "modelType": "RTPartnerFieldsTrade2",
+                                "labTitle": "组合投入到产业后的收回成本时间期望是",
+                                "fieldLeftIcon": "form_monery",
+                                "fieldPlaceholder": "请输入",
+                                "fieldRightStr": "年",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                }
+                                ]
+                    },
+                    {
+                    "modelType": "RTFormArea",
+                    "area": {
+                    "modelType": "RTFormPartnerArea",
+                    "labTitle": "运营合伙人业务开展地区",
+                    "labIcon": "form_section_4",
+                    "labRIcon": "form_Picker",
+                    "labDetail": "地理位置·圈子范围"
+                    }
+                    },
+                    {
+                    "modelType": "RTFormLocation",
+                    "locations": {
+                    "labStr": "运营合伙人业务开展的其它圈子的范围",
+                    "modelType": "RTFormAppLocation",
+                    "items": [
+                              {
+                              "labTitle": ""
+                              }
+                              ]
+                    }
+                    },
+                    {
+                    "modelType": "RTFormCulture",
+                    "culture": {
+                    "modelType": "RTFormPartnerCulture",
+                    "labIcon": "form_section_5",
+                    "labDetail": "文化宣传·客观描述"
+                    }
+                    },
+                    {
+                    "modelType": "RTFormBrief",
+                    "brief": {
+                    "modelType": "RTFormPartnerBrief",
+                    "items": [
+                              {
+                              "modelType": "RTFormBriefTop",
+                              "labStr": "人民币多少万元+具体金额+投资模式+主要投向行业+主要投向地区+入资限时+期望回本时间",
+                              "labDetail": "=货币作为资本推广简介·标题",
+                              "attriStr": "+;+;+;+;+;=",
+                              },
+                              {
+                              "modelType": "RTFormBriefBottom",
+                              "labStr": "货币3000万元人民币.种子|天使|a、b、c、d、e..风险投资模式.投向种养殖行业",
+                              "labDetail": "·交易模式:创业组合股权;限时自2017.5.1~2017.9.1止"
+                              },
+                              {
+                              "modelType": "RTFormFieldsBrief1",
+                              "labTitle": "货币资本一句话广告词",
+                              "fieldPlaceholder": "我只投京津翼地区大农业农庄型企业已投入成本500万以上的",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0"
+                              },
+                              {
+                              "modelType": "RTFormFieldsBrief2",
+                              "labTitle": "话题印象词(用于市场匹配 限5个词)",
+                              "fieldPlaceholder": "1000万以上的资本、山水一线农业,1000万以上的项目、农庄型企业、京津翼地区",
+                              "fieldRightIcon": "form_Picker",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0"
+                              },
+                              {
+                              "modelType": "RTFormFieldsBrief3",
+                              "labTitle": "货币资本客观详情·货币资金来源·以往投资案例·投资方式·配套投哪些运营资源",
+                              "fieldPlaceholder": "我投货币多少万元,已提交平台资金证明和银行流水单,欲寻求符合我的专长领域和发展志向的项目、团队、智慧、库存、市场、场地、设备,与之...",
+                              "fieldRightIcon": "form_field_arrow",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0"
+                              }
+                              ]
+                       }
+                    },
+                    {
+                    "modelType": "RTFormCapacitiveValue",
+                    "capacitive": {
+                    "modelType": "RTFormPartnerCapacitive",
+                    "labLIcon": "arrow-left",
+                    "labRIcon": "arrow-right",
+                    "labIcon": "form_section_6",
+                    "labTitle": "容通值·创业气象",
+                    "labDetail": "该运营合伙人资本估值"
+                    }
+                    },
+                    {
+                    "modelType": "RTFormSubCapacitiveOne",
+                    "subCapacitive": {
+                    "modelType": "RTFormSubCapacitivePartOne",
+                    "labLIcon": "arrow-left",
+                    "labRIcon": "arrow-right",
+                    "labIcon": "form_section_6",
+                    "labTitle": "容通值·创业气象",
+                    "labDetail": "该运营合伙人资本估值",
+                    "capacitiveHeader": {
+                    "modelType": "RTFormSubCapacitivePartOneField1",
+                    "labTitle": "密档",
+                    "attriStr": "密档",
+                    "labStr": "该货币资本自身具备的实力条件",
+                    "labIcon": "",
+                    "labDetail": "3000万人民币种子天使abcde...轮风险投资·货币资本"
+                    },
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapacitivePartField1",
+                              "labTitle": "填写该资本1号资金流水单证明的标题",
+                              "fieldPlaceholder": "3000万abcde...轮风险投资货币·资金流水单证明",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "attriStr": "1"
+                              },
+                              {
+                              "modelId":"1000",
+                              "modelType": "RTFormSubCapacitivePartField2",
+                              "labTitle": "上传该货币资本的1号资金流水单·证明-文档",
+                              "labDetail": "设置权限可见范围",
+                              "attriStr": "上传该货币资本的1号资金流水单·证明"
+                              }
+                              ],
+                    "capacitiveFooter": {
+                    "modelType": "RTFormSubCapacitiveFooter",
+                    "labTitle": "添加其它资金流水单·证明-文档",
+                    "labIcon": "form_add_doc",
+                    "attriStr": "文档"
+                        }
+                      }
+                    },
+                    {
+                    "modelType": "RTFormSubCapacitivePartTwo",
+                    "subCapacitivePartTwo": {
+                    "modelType": "RTFormSubPartTwo",
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapacitivePartField1",
+                              "labTitle": "填写该1号货币人就投该货币资本的金融性资产证明的标题",
+                              "fieldPlaceholder": "货币人就投该货币资本的金融性资本·证明",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "attriStr": "1"
+                              },
+                              {
+                              "modelId":"1001",
+                              "modelType": "RTFormSubCapacitivePartField2",
+                              "labTitle": "上传货币人就投该货币资本的1号金融性资本·证明-文档",
+                              "labDetail": "已设置权限可见范围",
+                              "attriStr": "上传货币人就投该货币资本的1号金融性资本·证明",
+                              "labDetailStatus":1
+                              }
+                              ],
+                    "capacitiveFooter": {
+                    "modelType": "RTFormSubCapacitiveFooter",
+                    "labTitle": "添加其它同类-文档",
+                    "labIcon": "form_add_doc",
+                    "attriStr": "文档"
+                          }
+                      }
+                    },
+                    {
+                    "modelType": "RTFormSubCapacitivePartThree",
+                    "subCapacitivePartThree": {
+                    "modelType": "RTFormSubPartThree",
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapacitivePartField1",
+                              "labTitle": "填写该资本1号历史财务报表及做账凭证的标题",
+                              "fieldPlaceholder": "张三运营合伙人·资本1号历史财务报表及做账凭证",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "attriStr": "1",
+                              "items":[
+                                       {
+                                       "modelId":"1001",
+                                       "modelType": "RTFormSubCapacitivePart2Field",
+                                       "labTitle": "1号历史财务报表的做账凭证.xlsx",
+                                       "labStr": "发布时间:2017-11-28;发布作者:大容通资本集市",
+                                       "attriStr": "1号历史财务报表的做账凭证.xlsx",
+                                       "attriStr2": "1"
+                                       },
+                                       {
+                                       "modelId":"1002",
+                                       "modelType": "RTFormSubCapacitivePart2Field",
+                                       "labTitle": "1号历史财务报表的做账凭证.jpg",
+                                       "labStr": "发布时间:2017-11-28;发布作者:大容通资本集市",
+                                       "attriStr": "1号历史财务报表的做账凭证.jpg",
+                                       "attriStr2": "1"
+                                    }
+                                ],
+                              "labDetail":"设置权限可见范围"
+                              },
+                              {
+                              "modelType": "RTFormSubCapacitivePartField1",
+                              "labTitle": "填写该资本1号历史财务报表及做账凭证的标题",
+                              "fieldPlaceholder": "张三运营合伙人·资本1号历史财务报表及做账凭证",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "attriStr": "1",
+                              "items":[
+                                       {
+                                       "modelId":"2000",
+                                       "modelType": "RTFormSubCapacitivePart3Field",
+                                       "labTitle": "上传2历史财务报表的做账凭证-文档",
+                                       "labDetail": "往年的传每年的财物表表及做账凭证;今年的传以往月份的财务报表及做账凭证",
+                                       "attriStr": "上传2历史财务报表的做账凭证",
+                                       "attriStr2": "2"
+                                       },
+                                       {
+                                       "modelId":"2000",
+                                       "modelType": "RTFormSubCapacitivePart3Field",
+                                       "labTitle": "上传2历史财务报表的做账凭证-文档",
+                                       "labDetail": "往年的传每年的财物表表及做账凭证;今年的传以往月份的财务报表及做账凭证",
+                                       "attriStr": "上传2历史财务报表的做账凭证",
+                                       "attriStr2": "2"
+                                     }
+                                  ],
+                                "labDetail": "设置权限可见范围"
+                                }
+                              ],
+                    "capacitiveFooter": {
+                    "modelType": "RTFormSubCapacitiveFooter",
+                    "labTitle": "添加其它号历史财报的做账凭证",
+                    "labIcon": "form_add_doc",
+                    "attriStr": "其它号"
+                        }
+                      }
+                    },
+                    {
+                    "modelType": "RTFormCapital",
+                    "capital": {
+                    "modelType": "RTFormSubCapital",
+                    "capitalHeader": {
+                    "modelType": "RTFormSubCapitalField1",
+                    "labTitle2": "表2-2·还有配伍附随投的有形资本",
+                    "labTitle": "表2-2密档",
+                    "attriStr": "表2-2密档",
+                    "labStr": "创业气象·有形资本估值",
+                    "labIcon": "",
+                    "labDetail": "张三运营合伙人·资本",
+                    "labDetail2": "创业气象·有形资本估值密档·图文绘声绘色篇里的提纲(密档文案中各组图文内容的标题,作为密档文案的提纲)",
+                    "attriStr2": "创业气象·有形资本估值密档·图文;提纲;密档文案中各组图文内容的标题"
+                    },
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapitalItem1",
+                              "labTitle": "创业气象·有形资本估值密档·提纲eg:1场地、2设备",
+                              "attriStr": "创业气象·有形资本估值密档·提纲;eg:;1;2",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapitalItem2",
+                              "labTitle": "运营合伙人具备:场地、设备",
+                              "attriStr": "创业气象·有形资本估值密档·提纲;1;2",
+                              "labDetail": "设置权限可见范围",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapitalItem3",
+                              "labTitle": "张三运营合伙人·有形资本",
+                              "attriStr": "设备、场地...",
+                              "labDetail": "绘声绘色·创业气象·已有有形资本",
+                              "labDetail2": "八坛公司 发出时间 2017-02-28 18:00",
+                              "attriStr2":"7分钟前",
+                              "labIcon": ""
+                              },
+                              {
+                                "modelType": "RTFormSubCapitalItem4",
+                                "labDetail": "设置权限可见范围"
+                              },
+                              {
+                                "modelType": "RTFormSubCapitalButtonTip",
+                                "labStr": "该发布的有形资本仅作为投运营合伙人资本的家底,予以辅助说明身价而已",
+                                "isSelected": 0
+                              },
+                              {
+                                "modelType": "RTFormSubCapitalButtonTip",
+                                "labStr": "该发布的有形资本仅作为投运营合伙人资本一同投出去组合股权",
+                                "isSelected": 1
+                              }
+                            ]
+                        }
+                    },
+                    {
+                    "modelType": "RTFormInvisibleCapital",
+                    "invisibleCapital":{
+                    "modelType": "RTFormSubInvisibleCapital",
+                    "capitalHeader": {
+                    "modelType": "RTFormSubCapitalField1",
+                    "labTitle2": "表2-3·已有无形资本密档",
+                    "labTitle": "表2-3-1密档",
+                    "attriStr": "表2-3-1密档",
+                    "labStr": "获得的物和智慧的产权/股权/债权/权益/资质",
+                    "labIcon": "",
+                    "labDetail": "张三运营合伙人·资本",
+                    "labDetail2": "该权益若有再知识产权局、工商局、金融管理机构、食药管理机构...等国家国际上的行政管理机关注册/被许可特许资质和主体产权/股权/债权/权益的,则绘声绘色编辑如下各篇密档文案:",
+                    "attriStr2": "创业气象·有形资本估值密档·图文;提纲;密档文案中各组图文内容的标题"
+                    },
+                    "items":[
+                             {
+                             "modelType": "RTFormInvisibleCapacitiveItemOne",
+                             "labTitle": "填写下面密档1号·图文绘声绘色商业篇里的提纲(密档文案中各组图文内容的标题,作为密档文案的提纲)",
+                             "fieldPlaceholder": "密档1号·提纲eg:1营业执照;2ICP许可证;3网络文化许可证;4食品生产许可证;5智慧成果发明专利证书;6软件著作权;7保健品生产主体资格;8其它政府许可证书",
+                             "fieldRightIcon": "form_pen",
+                             "fieldIsAttri": 0,
+                             "fieldBtmLineVisbile": 1,
+                             "fieldPosition": "0",
+                             "attriStr": "密档1号·图文;提纲;密档文案中各组图文内容的标题"
+                             },
+                             {
+                             "modelType": "RTFormInvisibleCapacitiveItemTwo",
+                             "labTitle": "绘声绘色商业篇编辑上述提纲所指明的密档1号·图文",
+                             "labDetail": "设置权限可见范围",
+                             "attriStr": "密档1号·图文",
+                             "labTitle2":"甜蜜蜜有机桃汁·营业执照;ICP许可证;网络文化许可证..."
+                             }
+                      ],
+                    "capacitiveFooter": {
+                    "modelType": "RTFormInvisbleCapacitiveFooter",
+                    "labTitle": "添加其它号密档·获得的权益/资质",
+                    "labIcon": "form_add_doc",
+                    "attriStr": "获得的权益/资质"
+                      }
+                     }
+                    },
+                    {
+                    "modelType": "RTFormCapital232",
+                    "capital232": {
+                    "modelType": "RTFormSubCapital232",
+                    "capitalHeader": {
+                    "modelType": "RTFormSubCapitalField1",
+                    "labTitle2": "表2-3-2·已有有形资本",
+                    "labTitle": "表2-3-2密档",
+                    "attriStr": "表2-3-2密档",
+                    "labStr": "创业气象·无形资本估值",
+                    "labIcon": "",
+                    "labDetail": "张三运营合伙人·资本",
+                    "labDetail2": "创业气象·有形资本估值密档·图文绘声绘色篇里的提纲(密档文案中各组图文内容的标题,作为密档文案的提纲)",
+                    "attriStr2": "创业气象·有形资本估值密档·图文;提纲;密档文案中各组图文内容的标题"
+                    },
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapitalItem1",
+                              "labTitle": "创业气象·有形资本估值密档·提纲eg:1月产能、2经营市场地区·地区位置、3产品销售量、4产品用户量、5智慧成果市值、6资本市值、7市场前景",
+                              "attriStr": "创业气象·有形资本估值密档·提纲;eg:;1;2;3;4;5;6;7",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapitalItem2",
+                              "labTitle": "运营合伙人具备:场地、设备",
+                              "attriStr": "创业气象·有形资本估值密档·提纲;1;2",
+                              "labDetail": "设置权限可见范围",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapitalItem3",
+                              "labTitle": "张三运营合伙人·有形资本",
+                              "attriStr": "月产能、经营市场地区·地理位置、产品 销售量、产品用户量、智慧成果市值...",
+                              "labDetail": "绘声绘色·创业气象·已有有形资本",
+                              "labDetail2": "八坛公司 发出时间 2017-02-28 18:00",
+                              "attriStr2":"7分钟前",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapacitivePartField",
+                              "labDetail": "设置权限可见范围"
+                              }
+                              ]
+                    }
+                    },
+                    {
+                    "modelType": "RTFormFooter",
+                    "footer": {
+                    "modelType": "RTFormPartnerFooter",
+                    "items": [
+                              {
+                              "modelType": "RTFormPartnerFooterLeft",
+                              "labIcon": "form_section_6",
+                              "labTitle": "发布",
+                              "labDetail": "该运营合伙人资本估值"
+                              },
+                              {
+                              "modelType": "RTFormPartnerFooterRight",
+                              "labIcon": "form_section_6",
+                              "labTitle": "保存",
+                              "labDetail": "该运营合伙人资本估值"
+                            }
+                     ]
+                }
+            }
+    ]
+}

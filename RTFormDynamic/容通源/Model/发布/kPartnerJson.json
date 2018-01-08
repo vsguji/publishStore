@@ -1,0 +1,855 @@
+{
+    "partnerForm": [
+                    {
+                    "photo": {
+                    "modelType": "RTPartnerIcon",
+                    "labStr": "",
+                    "labIcon": "",
+                    "labDetail": "投运营合伙人拍照",
+                    "items": [
+                              {
+                              "labStr": "投资一个项目组的运营合伙人资本",
+                              "labIcon": "form_section_1"
+                              },
+                              {
+                              "labTitle": "密档",
+                              "attriStr": "密档",
+                              "labStr": "运营合伙人作为资本的基本信息",
+                              "labIcon": "",
+                              "labDetail": "选择运营合伙人名片"
+                              },
+                              {
+                              "labStr": "选自己"
+                              },
+                              {
+                              "labStr": "选个性场院关系"
+                              },
+                              {
+                              "labStr": "选其他容通人"
+                              }
+                              ]
+                    }
+                    },
+                    {
+                    "fields": [
+                               {
+                               "modelType": "RTPartnerFields1",
+                               "labTitle": "在如下时间段内",
+                               "fieldPlaceholder": "自2017年5月1日始至2017年9月1日前",
+                               "fieldRightIcon": "form_Picker",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0"
+                               },
+                               {
+                               "modelType": "RTPartnerFields2",
+                               "labTitle": "自我估值:平均每年可创造的净产值是约合多少人民币",
+                               "fieldLeftIcon": "form_monery",
+                               "fieldPlaceholder": "请输入",
+                               "fieldRightStr": "万元",
+                               "fieldRightIcon": "form_pen",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0"
+                               }
+                               ]
+                    },
+                    {
+                    "modelType": "formWays",
+                    "labTitle": "可投运营合伙人之合伙合作方式",
+                    "labLIcon": "arrow-left",
+                    "labRIcon": "arrow-right",
+                    "attriStr": "之",
+                    "ways": [
+                             {
+                             "modelType": "formSubWays1",
+                             "itemTitle": "1、是否坐班",
+                             "layoutDirection": 1,
+                             "layoutNumOfRows": 2,
+                             "items": [
+                                       {
+                                       "modelType": "formSubWays1",
+                                       "labStr": "坐班",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formSubWays1",
+                                       "labStr": "不坐班",
+                                       "isSelected": 1
+                                       }
+                                       ]
+                             },
+                             {
+                             "modelType": "formModelType2",
+                             "itemTitle": "2、是否发工资",
+                             "layoutDirection": 0,
+                             "layoutNumOfRows": 2,
+                             "items": [
+                                       {
+                                       "modelType": "formModelType2",
+                                       "labStr": "领工资--领劳动合同市场价工资的20%",
+                                       "labIcon": "form_Picker",
+                                       "isSelected": 1
+                                       },
+                                       {
+                                       "modelType": "formModelType2",
+                                       "labStr": "不领工资",
+                                       "isSelected": 0
+                                       }
+                                       ]
+                             },
+                             {
+                             "itemTitle": "3、是否同时投[运营合伙人]资本之外的其他八类资本",
+                             "layoutDirection": 1,
+                             "layoutNumOfRows": 3,
+                             "items": [
+                                       {
+                                       "modelType": "formModelType3",
+                                       "labStr": "投货币",
+                                       "isSelected": 1
+                                       },
+                                       {
+                                       "modelType": "formModelType3",
+                                       "labStr": "投设备",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType3",
+                                       "labStr": "投项目",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType3",
+                                       "labStr": "投团队",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType3",
+                                       "labStr": "投场地",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType3",
+                                       "labStr": "投智慧",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType3",
+                                       "labStr": "投库存",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType3",
+                                       "labStr": "投市场",
+                                       "isSelected": 0
+                                       }
+                                       ]
+                             },
+                             {
+                             "modelType": "formModelType4",
+                             "itemTitle": "4、是否做为终身合作一个(份)共同的企业事业",
+                             "layoutDirection": 1,
+                             "layoutNumOfRows": 2,
+                             "items": [
+                                       {
+                                       "modelType": "formModelType4",
+                                       "labStr": "是",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType4",
+                                       "labStr": "否",
+                                       "isSelected": 0
+                                       }
+                                       ]
+                             },
+                             {
+                             "modelType": "formModelType5",
+                             "itemTitle": "5、选择运营合伙人类型",
+                             "layoutDirection": 1,
+                             "layoutNumOfRows": 2,
+                             "items": [
+                                       {
+                                       "modelType": "formModelType5",
+                                       "labStr": "是做为从零开始发起/共同发起型创造人",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType5",
+                                       "labStr": "是做为在发起后联合型创始人",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType5",
+                                       "labStr": "创始团队合伙人",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType5",
+                                       "labStr": "团队合伙人",
+                                       "isSelected": 0,
+                                       "labIcon": "form_Picker"
+                                       }
+                                       ]
+                             },
+                             {
+                             "modelType": "formModelType6",
+                             "itemTitle": "6、有无管理权限",
+                             "layoutDirection": 1,
+                             "layoutNumOfRows": 2,
+                             "items": [
+                                       {
+                                       "modelType": "formModelType6",
+                                       "labStr": "股份红利无管理权限",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType6",
+                                       "labStr": "股份红利加管理权限",
+                                       "isSelected": 0
+                                       }
+                                       ]
+                             },
+                             {
+                             "modelType": "formModelType7",
+                             "itemTitle": "7、是否做为较小管理权辅助型",
+                             "layoutDirection": 1,
+                             "layoutNumOfRows": 2,
+                             "items": [
+                                       {
+                                       "modelType": "formModelType7",
+                                       "labStr": "是",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType7",
+                                       "labStr": "否",
+                                       "isSelected": 0
+                                       }
+                                       ]
+                             },
+                             {
+                             "modelType": "formModelType8",
+                             "itemTitle": "8、是否已定核心控制合伙人",
+                             "layoutDirection": 1,
+                             "layoutNumOfRows": 2,
+                             "items": [
+                                       {
+                                       "modelType": "formModelType8",
+                                       "labStr": "已定",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType8",
+                                       "labStr": "待定",
+                                       "isSelected": 0
+                                       }
+                                       ]
+                             },
+                             {
+                             "modelType": "RTPartnerFields9",
+                             "labTitle": "9、投入运营合伙人的时间段",
+                             "fieldPlaceholder": "自2017年5月1日始至2017年9月1日前",
+                             "fieldRightIcon": "form_Picker",
+                             "fieldIsAttri": 0,
+                             "fieldBtmLineVisbile": 0,
+                             "fieldPosition": "0"
+                             },
+                             {
+                             "modelType": "formModelType10",
+                             "itemTitle": "10、股份单证",
+                             "layoutDirection": 1,
+                             "layoutNumOfRows": 2,
+                             "items": [
+                                       {
+                                       "modelType": "formModelType10",
+                                       "labStr": "是为期权原始股票",
+                                       "isSelected": 0
+                                       },
+                                       {
+                                       "modelType": "formModelType10",
+                                       "labStr": "是为工商注册股份",
+                                       "isSelected": 1
+                                       }
+                                       ]
+                             }
+                             ]
+                    },
+                    {
+                    "entityProduct": {
+                    "modelType": "RTFormEntityProduct",
+                    "labIcon": "form_section_2",
+                    "labDetail": "该运营合伙人实体产品资本"
+                     }
+                    },
+                    {
+                    "modelType": "RTPartnerFieldsEntityProduct",
+                    "fields3": [
+                                {
+                                "modelId":"3000",
+                                "modelType": "RTPartnerFieldsProduct1",
+                                "labTitle": "运营合伙人资本·组织结构类别",
+                                "fieldPlaceholder": "个人",
+                                "fieldRightIcon": "",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0",
+                                "attriStr":"运营合伙人资本",
+                                "items":[{
+                                         "modelType": "RTPartnerFieldAndButtonItem",
+                                         "labStr": "个人",
+                                         "labIcon": "form_section_3",
+                                         "isSelected": 1
+                                   }]
+                                },
+                                {
+                                "modelId":"3001",
+                                "modelType": "RTPartnerFieldsProduct1",
+                                "labTitle": "运营合伙人资本·所处产业链环节类别",
+                                "fieldLeftIcon": "",
+                                "fieldPlaceholder": "吃住游乐农庄 > 原产地",
+                                "fieldRightStr": "",
+                                "fieldRightIcon": "form_gray_down",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 0,
+                                "fieldPosition": "0",
+                                "attriStr":"运营合伙人资本"
+                            }
+                        ]
+                    },
+                    {
+                    "business": {
+                    "modelType": "RTFormBusiness",
+                    "labTitle": "可投风向",
+                    "labLIcon": "arrow-left",
+                    "labRIcon": "arrow-right",
+                    "labIcon": "form_section_3",
+                    "labDetail": "该运营合伙人作为组合股权的资本落地股份制企业的组合限时"
+                     }
+                    },
+                    {
+                    "modelType": "RTPartnerFieldsTrade0",
+                    "fields2": [
+                                {
+                                "modelType": "RTPartnerFieldsTrade1",
+                                "labTitle": "限时在什么时间段内完成组合股权",
+                                "fieldPlaceholder": "自2017年5月1日始至2017年9月1日前",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                },
+                                {
+                                "modelType": "RTPartnerFieldsTrade2",
+                                "labTitle": "组合投入到产业后的收回成本时间期望是",
+                                "fieldLeftIcon": "form_monery",
+                                "fieldPlaceholder": "请输入",
+                                "fieldRightStr": "年",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "0"
+                                },
+                                {
+                                "modelType": "RTPartnerFieldsTrade3",
+                                "labTitle": "交易模式",
+                                "fieldLeftIcon": "form_monery",
+                                "fieldPlaceholder": "容通源·创业组合股权",
+                                "fieldRightStr": "模式",
+                                "fieldRightIcon": "form_Picker",
+                                "fieldIsAttri": 0,
+                                "fieldBtmLineVisbile": 1,
+                                "fieldPosition": "1"
+                                }
+                                ]
+                    },
+                    {
+                    "modelType": "RTFormArea",
+                    "area": {
+                    "modelType": "RTFormPartnerArea",
+                    "labTitle": "运营合伙人业务开展地区",
+                    "labIcon": "form_section_4",
+                    "labRIcon": "form_Picker",
+                    "labDetail": "地理位置·圈子范围"
+                    }
+                    },
+                    {
+                    "modelType": "RTFormLocation",
+                    "locations": {
+                    "labStr": "运营合伙人业务开展的其它圈子的范围",
+                    "modelType": "RTFormAppLocation",
+                    "items": [
+                              {
+                              "labTitle": ""
+                              }
+                              ]
+                    }
+                    },
+                    {
+                    "modelType": "RTFormCulture",
+                    "culture": {
+                    "modelType": "RTFormPartnerCulture",
+                    "labIcon": "form_section_5",
+                    "labDetail": "文化宣传·客观描述"
+                    }
+                    },
+                    {
+                    "modelType": "RTFormBrief",
+                    "brief": {
+                    "modelType": "RTFormPartnerBrief",
+                    "items": [
+                              {
+                              "modelType": "RTFormBriefTop",
+                              "labStr": "运营合伙人尊称+供职机构+职位+供职天数+任职部门+职能负责·工作内容·技能专长·智慧成果+运营合伙人业务开展地区+交易模式",
+                              "labDetail": "=运营合伙人作为组合资本的推广简介·标题",
+                              "attriStr": "运营合伙人业务开展地区,交易模式;=",
+                              },
+                              {
+                              "modelType": "RTFormBriefBottom",
+                              "labStr": "·运营合伙人作为资本的业务开展地区:内蒙古资质区呼和浩特市和林格尔县盛乐镇·附件圈子",
+                              "labDetail": "·交易模式:创业组合股权;限时自2017.5.1~2017.9.1止"
+                              },
+                              {
+                              "modelType": "RTFormFieldsBrief1",
+                              "labTitle": "一句话运营合伙人组合资本口号",
+                              "fieldPlaceholder": "大容通·团队口号--让每一个用户都知道和践行 通过劳动就能够获得生活健康,通过组合资本和奋斗就能够实现梦想,通过身家资本流通就能够获财",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0"
+                              },
+                              {
+                              "modelType": "RTFormFieldsBrief2",
+                              "labTitle": "话题印象词(用于市场匹配 限5个词)",
+                              "fieldPlaceholder": "双创组合资本、匹配合伙人、诉求合伙人、投合伙人、互联网+行家、IT从业经验15年",
+                              "fieldRightIcon": "form_Picker",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0"
+                              },
+                              {
+                              "modelType": "RTFormFieldsBrief3",
+                              "labTitle": "以往的实施案例举例一二",
+                              "fieldPlaceholder": "在BAT公司供职过5年、在创业公司供职过5年",
+                              "fieldRightIcon": "form_field_arrow",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0"
+                              },
+                              {
+                               "modelType": "RTFormFieldsBriefMedia",
+                               "labTitle": "文化品牌·营宣",
+                               "fieldRightIcon": "form_field_arrow",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0",
+                              "items":[
+                                    {
+                                       "modelType": "RTFormFieldsBriefMedia1",
+                                       "labTitle": "宣说",
+                                       "labLIcon":"",
+                                       "labRIcon":""
+                                     },
+                                    {
+                                       "modelType": "RTFormFieldsBriefMedia1",
+                                       "labTitle": "绘声绘色",
+                                       "labLIcon":"",
+                                       "labRIcon":"form_hui"
+                                    },
+                                    {
+                                       "modelType": "RTFormFieldsBriefMedia1",
+                                       "labTitle": "直播",
+                                       "labLIcon":"",
+                                       "labRIcon":""
+                                    }
+                                  ],
+                                "fieldRightIcon": "form_field_arrow"
+                              },
+                              {
+                              "modelType": "RTFormFieldsBrief4",
+                              "labTitle": "绘商业篇·宣传文案",
+                              "fieldPlaceholder": "绘声绘色描述合伙人资本详细情况",
+                              "fieldRightIcon": "form_field_arrow",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0"
+                              },
+                              {
+                              "modelType": "RTFormFieldsBrief5",
+                              "labTitle": "运营合伙人基础素质、经验-客观描述",
+                              "fieldRightIcon": "form_field_arrow",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "items": [
+                                        {
+                                        "modelType": "RTFormFieldsBrief5_1",
+                                        "labTitle": "项目详情",
+                                        "fieldPlaceholder": "创始历程:我们已有龙井茶山2万亩,制作绿茶与红茶设备有两个生产车间,年产量500斤红茶...商业计划书...",
+                                        "fieldIsAttri": 0,
+                                        "fieldBtmLineVisbile": 1,
+                                        "fieldPosition": "0",
+                                        "fieldRightIcon": "form_field_arrow"
+                                        },
+                                        {
+                                        "modelType": "RTFormFieldsBrief5_2",
+                                        "labTitle": "周边配套",
+                                        "fieldPlaceholder": "各级政府对我们项目的支持政策含金量政策有什么普遍适用性文件,有什么具体适用性文件?例如:减地价、减税价、减水电气基础设置使用价格,国有银行贷...",
+                                        "fieldIsAttri": 0,
+                                        "fieldBtmLineVisbile": 1,
+                                        "fieldPosition": "0"
+                                        },
+                                        {
+                                        "modelType": "RTFormFieldsBrief5_3",
+                                        "labTitle": "投资人心态",
+                                        "fieldPlaceholder": "参与组合创业、重组并购是因为我们原来产出的初级产品,在需求一侧的市场越来越小的几乎没有了,需要将企业的场地、设备、团队、智慧、货币、库存、...",
+                                        "fieldIsAttri": 0,
+                                        "fieldBtmLineVisbile": 1,
+                                        "fieldPosition": "0"
+                                        }
+                                        ]
+                              }
+                              ]
+                    }
+                    },
+                    {
+                    "modelType": "RTFormCapacitiveValue",
+                    "capacitive": {
+                    "modelType": "RTFormPartnerCapacitive",
+                    "labLIcon": "arrow-left",
+                    "labRIcon": "arrow-right",
+                    "labIcon": "form_section_6",
+                    "labTitle": "容通值·创业气象",
+                    "labDetail": "该运营合伙人资本估值"
+                    }
+                    },
+                    {
+                    "modelType": "RTFormSubCapacitiveOne",
+                    "subCapacitive": {
+                    "modelType": "RTFormSubCapacitivePartOne",
+                    "labLIcon": "arrow-left",
+                    "labRIcon": "arrow-right",
+                    "labIcon": "form_section_6",
+                    "labTitle": "容通值·创业气象",
+                    "labDetail": "该运营合伙人资本估值",
+                    "capacitiveHeader": {
+                    "modelType": "RTFormSubCapacitivePartOneField1",
+                    "labTitle": "密档",
+                    "attriStr": "密档",
+                    "labStr": "上传该资本成文的商业计划书、财报、上下游合同文档",
+                    "labIcon": "",
+                    "labDetail": "张三运营合伙人·资本"
+                    },
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapacitivePartField1",
+                              "labTitle": "填写该资本1号商业计划书的标题",
+                              "fieldPlaceholder": "张三运营合伙人·资本商业计划书",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "attriStr": "1"
+                              },
+                              {
+                              "modelId":"1000",
+                              "modelType": "RTFormSubCapacitivePartField2",
+                              "labTitle": "上传商业计划书-文档",
+                              "labDetail": "设置权限可见范围",
+                              "attriStr": "上传商业计划书"
+                              }
+                              ],
+                    "capacitiveFooter": {
+                    "modelType": "RTFormSubCapacitiveFooter",
+                    "labTitle": "添加其他同类-文档",
+                    "labIcon": "form_add_doc",
+                    "attriStr": "文档"
+                        }
+                      }
+                    },
+                    {
+                    "modelType": "RTFormSubCapacitivePartTwo",
+                    "subCapacitivePartTwo": {
+                    "modelType": "RTFormSubPartTwo",
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapacitivePartField1",
+                              "labTitle": "填写该资本1号上下游合同的标题",
+                              "fieldPlaceholder": "张三运营合伙人·资本上下游合同",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "attriStr": "1"
+                              },
+                              {
+                              "modelId":"1001",
+                              "modelType": "RTFormSubCapacitivePartField2",
+                              "labTitle": "上下游运营合同.docx",
+                              "labDetail": "已设置权限可见范围",
+                              "labStr": "发布时间:2017-11-28;发布作者:大容通资本集市",
+                              "attriStr": "上下游运营合同.docx",
+                              "labDetailStatus":1
+                              },
+                              {
+                              "modelType": "RTFormSubCapacitivePartField1",
+                              "labTitle": "填写该资本2号上下游合同的标题",
+                              "fieldPlaceholder": "张三运营合伙人·资本上下游合同",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "attriStr": "2"
+                              },
+                              {
+                              "modelType": "RTFormSubCapacitivePartField2",
+                              "labTitle": "上传上下游运营合同包括但不限于资本营收合同、销售合同、场地合同、设备/生产资料采购合同-文档",
+                              "labDetail": "已设置权限可见范围",
+                              "attriStr": "上传上下游运营合同包括但不限于资本营收合同、销售合同、场地合同、设备/生产资料采购合同",
+                              "labDetailStatus":1
+                              }
+                              ],
+                    "capacitiveFooter": {
+                    "modelType": "RTFormSubCapacitiveFooter",
+                    "labTitle": "添加其它同类-文档",
+                    "labIcon": "form_add_doc",
+                    "attriStr": "文档"
+                          }
+                      }
+                    },
+                    {
+                    "modelType": "RTFormSubCapacitivePartThree",
+                    "subCapacitivePartThree": {
+                    "modelType": "RTFormSubPartThree",
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapacitivePartField1",
+                              "labTitle": "填写该资本1号历史财务报表及做账凭证的标题",
+                              "fieldPlaceholder": "张三运营合伙人·资本1号历史财务报表及做账凭证",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "attriStr": "1",
+                              "items":[
+                                       {
+                                       "modelId":"1001",
+                                       "modelType": "RTFormSubCapacitivePart2Field",
+                                       "labTitle": "1号历史财务报表的做账凭证.xlsx",
+                                       "labStr": "发布时间:2017-11-28;发布作者:大容通资本集市",
+                                       "attriStr": "1号历史财务报表的做账凭证.xlsx",
+                                       "attriStr2": "1"
+                                       },
+                                       {
+                                       "modelId":"1002",
+                                       "modelType": "RTFormSubCapacitivePart2Field",
+                                       "labTitle": "1号历史财务报表的做账凭证.jpg",
+                                       "labStr": "发布时间:2017-11-28;发布作者:大容通资本集市",
+                                       "attriStr": "1号历史财务报表的做账凭证.jpg",
+                                       "attriStr2": "1"
+                                    }
+                                ],
+                              "labDetail":"设置权限可见范围"
+                              },
+                              {
+                              "modelType": "RTFormSubCapacitivePartField1",
+                              "labTitle": "填写该资本1号历史财务报表及做账凭证的标题",
+                              "fieldPlaceholder": "张三运营合伙人·资本1号历史财务报表及做账凭证",
+                              "fieldRightIcon": "form_pen",
+                              "fieldIsAttri": 0,
+                              "fieldBtmLineVisbile": 1,
+                              "fieldPosition": "0",
+                              "attriStr": "1",
+                              "items":[
+                                       {
+                                       "modelId":"2000",
+                                       "modelType": "RTFormSubCapacitivePart3Field",
+                                       "labTitle": "上传2历史财务报表的做账凭证-文档",
+                                       "labDetail": "往年的传每年的财物表表及做账凭证;今年的传以往月份的财务报表及做账凭证",
+                                       "attriStr": "上传2历史财务报表的做账凭证",
+                                       "attriStr2": "2"
+                                       },
+                                       {
+                                       "modelId":"2000",
+                                       "modelType": "RTFormSubCapacitivePart3Field",
+                                       "labTitle": "上传2历史财务报表的做账凭证-文档",
+                                       "labDetail": "往年的传每年的财物表表及做账凭证;今年的传以往月份的财务报表及做账凭证",
+                                       "attriStr": "上传2历史财务报表的做账凭证",
+                                       "attriStr2": "2"
+                                     }
+                                  ],
+                                "labDetail": "设置权限可见范围"
+                                }
+                              ],
+                    "capacitiveFooter": {
+                    "modelType": "RTFormSubCapacitiveFooter",
+                    "labTitle": "添加其它号历史财报的做账凭证",
+                    "labIcon": "form_add_doc",
+                    "attriStr": "其它号"
+                        }
+                      }
+                    },
+                    {
+                    "modelType": "RTFormCapital",
+                    "capital": {
+                    "modelType": "RTFormSubCapital",
+                    "capitalHeader": {
+                    "modelType": "RTFormSubCapitalField1",
+                    "labTitle2": "表2-2·还有配伍附随投的有形资本",
+                    "labTitle": "表2-2密档",
+                    "attriStr": "表2-2密档",
+                    "labStr": "创业气象·有形资本估值",
+                    "labIcon": "",
+                    "labDetail": "张三运营合伙人·资本",
+                    "labDetail2": "创业气象·有形资本估值密档·图文绘声绘色篇里的提纲(密档文案中各组图文内容的标题,作为密档文案的提纲)",
+                    "attriStr2": "创业气象·有形资本估值密档·图文;提纲;密档文案中各组图文内容的标题"
+                    },
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapitalItem1",
+                              "labTitle": "创业气象·有形资本估值密档·提纲eg:1场地、2设备",
+                              "attriStr": "创业气象·有形资本估值密档·提纲;eg:;1;2",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapitalItem2",
+                              "labTitle": "运营合伙人具备:场地、设备",
+                              "attriStr": "创业气象·有形资本估值密档·提纲;1;2",
+                              "labDetail": "设置权限可见范围",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapitalItem3",
+                              "labTitle": "张三运营合伙人·有形资本",
+                              "attriStr": "设备、场地...",
+                              "labDetail": "绘声绘色·创业气象·已有有形资本",
+                              "labDetail2": "八坛公司 发出时间 2017-02-28 18:00",
+                              "attriStr2":"7分钟前",
+                              "labIcon": ""
+                              },
+                              {
+                                "modelType": "RTFormSubCapitalItem4",
+                                "labDetail": "设置权限可见范围"
+                              },
+                              {
+                                "modelType": "RTFormSubCapitalButtonTip",
+                                "labStr": "该发布的有形资本仅作为投运营合伙人资本的家底,予以辅助说明身价而已",
+                                "isSelected": 0
+                              },
+                              {
+                                "modelType": "RTFormSubCapitalButtonTip",
+                                "labStr": "该发布的有形资本仅作为投运营合伙人资本一同投出去组合股权",
+                                "isSelected": 1
+                              }
+                            ]
+                        }
+                    },
+                    {
+                    "modelType": "RTFormInvisibleCapital",
+                    "invisibleCapital":{
+                    "modelType": "RTFormSubInvisibleCapital",
+                    "capitalHeader": {
+                    "modelType": "RTFormSubCapitalField1",
+                    "labTitle2": "表2-3·已有无形资本密档",
+                    "labTitle": "表2-3-1密档",
+                    "attriStr": "表2-3-1密档",
+                    "labStr": "获得的物和智慧的产权/股权/债权/权益/资质",
+                    "labIcon": "",
+                    "labDetail": "张三运营合伙人·资本",
+                    "labDetail2": "该权益若有再知识产权局、工商局、金融管理机构、食药管理机构...等国家国际上的行政管理机关注册/被许可特许资质和主体产权/股权/债权/权益的,则绘声绘色编辑如下各篇密档文案:",
+                    "attriStr2": "创业气象·有形资本估值密档·图文;提纲;密档文案中各组图文内容的标题"
+                    },
+                    "items":[
+                             {
+                             "modelType": "RTFormInvisibleCapacitiveItemOne",
+                             "labTitle": "填写下面密档1号·图文绘声绘色商业篇里的提纲(密档文案中各组图文内容的标题,作为密档文案的提纲)",
+                             "fieldPlaceholder": "密档1号·提纲eg:1营业执照;2ICP许可证;3网络文化许可证;4食品生产许可证;5智慧成果发明专利证书;6软件著作权;7保健品生产主体资格;8其它政府许可证书",
+                             "fieldRightIcon": "form_pen",
+                             "fieldIsAttri": 0,
+                             "fieldBtmLineVisbile": 1,
+                             "fieldPosition": "0",
+                             "attriStr": "密档1号·图文;提纲;密档文案中各组图文内容的标题"
+                             },
+                             {
+                             "modelType": "RTFormInvisibleCapacitiveItemTwo",
+                             "labTitle": "绘声绘色商业篇编辑上述提纲所指明的密档1号·图文",
+                             "labDetail": "设置权限可见范围",
+                             "attriStr": "密档1号·图文",
+                             "labTitle2":"甜蜜蜜有机桃汁·营业执照;ICP许可证;网络文化许可证..."
+                             }
+                      ],
+                    "capacitiveFooter": {
+                    "modelType": "RTFormInvisbleCapacitiveFooter",
+                    "labTitle": "添加其它号密档·获得的权益/资质",
+                    "labIcon": "form_add_doc",
+                    "attriStr": "获得的权益/资质"
+                      }
+                     }
+                    },
+                    {
+                    "modelType": "RTFormCapital232",
+                    "capital232": {
+                    "modelType": "RTFormSubCapital232",
+                    "capitalHeader": {
+                    "modelType": "RTFormSubCapitalField1",
+                    "labTitle2": "表2-3-2·已有有形资本",
+                    "labTitle": "表2-3-2密档",
+                    "attriStr": "表2-3-2密档",
+                    "labStr": "创业气象·无形资本估值",
+                    "labIcon": "",
+                    "labDetail": "张三运营合伙人·资本",
+                    "labDetail2": "创业气象·有形资本估值密档·图文绘声绘色篇里的提纲(密档文案中各组图文内容的标题,作为密档文案的提纲)",
+                    "attriStr2": "创业气象·有形资本估值密档·图文;提纲;密档文案中各组图文内容的标题"
+                    },
+                    "items": [
+                              {
+                              "modelType": "RTFormSubCapitalItem1",
+                              "labTitle": "创业气象·有形资本估值密档·提纲eg:1月产能、2经营市场地区·地区位置、3产品销售量、4产品用户量、5智慧成果市值、6资本市值、7市场前景",
+                              "attriStr": "创业气象·有形资本估值密档·提纲;eg:;1;2;3;4;5;6;7",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapitalItem2",
+                              "labTitle": "运营合伙人具备:场地、设备",
+                              "attriStr": "创业气象·有形资本估值密档·提纲;1;2",
+                              "labDetail": "设置权限可见范围",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapitalItem3",
+                              "labTitle": "张三运营合伙人·有形资本",
+                              "attriStr": "月产能、经营市场地区·地理位置、产品 销售量、产品用户量、智慧成果市值...",
+                              "labDetail": "绘声绘色·创业气象·已有有形资本",
+                              "labDetail2": "八坛公司 发出时间 2017-02-28 18:00",
+                              "attriStr2":"7分钟前",
+                              "labIcon": ""
+                              },
+                              {
+                              "modelType": "RTFormSubCapacitivePartField",
+                              "labDetail": "设置权限可见范围"
+                              }
+                              ]
+                    }
+                    },
+                    {
+                    "modelType": "RTFormFooter",
+                    "footer": {
+                    "modelType": "RTFormPartnerFooter",
+                    "items": [
+                              {
+                              "modelType": "RTFormPartnerFooterLeft",
+                              "labIcon": "form_section_6",
+                              "labTitle": "发布",
+                              "labDetail": "该运营合伙人资本估值"
+                              },
+                              {
+                              "modelType": "RTFormPartnerFooterRight",
+                              "labIcon": "form_section_6",
+                              "labTitle": "保存",
+                              "labDetail": "该运营合伙人资本估值"
+                            }
+                     ]
+                }
+            }
+    ]
+}

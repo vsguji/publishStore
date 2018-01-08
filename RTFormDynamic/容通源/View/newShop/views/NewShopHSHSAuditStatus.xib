@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JLZ-gi-HrJ" customClass="NewShopHSHSAuditStatus">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="827"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asc-Yr-Qn3">
+                    <rect key="frame" x="14" y="773" width="175" height="44"/>
+                    <color key="backgroundColor" red="0.68627450980000004" green="0.68627450980000004" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="175" id="iSS-0c-6WZ"/>
+                        <constraint firstAttribute="height" constant="44" id="zTV-Ak-gOk"/>
+                    </constraints>
+                    <state key="normal" title="截止">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stopAudit:" destination="JLZ-gi-HrJ" eventType="touchUpInside" id="zZL-OG-qHW"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBs-D5-isf">
+                    <rect key="frame" x="194" y="793" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHS-sd-KLC">
+                    <rect key="frame" x="199" y="773" width="175" height="44"/>
+                    <color key="backgroundColor" red="0.48627450979999998" green="0.47450980390000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="OFj-8w-TAh"/>
+                        <constraint firstAttribute="width" constant="175" id="m5r-Ia-4ug"/>
+                    </constraints>
+                    <state key="normal" title="修改新建">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="updateHSHS:" destination="JLZ-gi-HrJ" eventType="touchUpInside" id="CvQ-V9-X2S"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lyo-c4-Y4v">
+                    <rect key="frame" x="0.0" y="0.0" width="388" height="510"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="510" id="hqO-L3-Mbl"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FoL-4j-daR" customClass="NewShopAuditFlowView">
+                    <rect key="frame" x="0.0" y="525" width="388" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="8pl-JL-mk9"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="53d-OO-CgW">
+                    <rect key="frame" x="35" y="610" width="318" height="80"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newShop_2审核中" translatesAutoresizingMaskIntoConstraints="NO" id="fZW-Y5-ilK">
+                            <rect key="frame" x="8" y="0.0" width="64" height="54"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有道翻译提供即时免费的中、英、日、韩、法、俄、西班牙、葡萄牙" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BmU-O4-K29">
+                            <rect key="frame" x="84" y="0.0" width="234" height="33.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="BmU-O4-K29" firstAttribute="leading" secondItem="53d-OO-CgW" secondAttribute="leading" constant="84" id="8N9-EF-84J"/>
+                        <constraint firstAttribute="height" constant="80" id="DF8-be-KWn"/>
+                        <constraint firstItem="BmU-O4-K29" firstAttribute="top" secondItem="fZW-Y5-ilK" secondAttribute="top" id="IHn-A2-k1o"/>
+                        <constraint firstItem="fZW-Y5-ilK" firstAttribute="top" secondItem="53d-OO-CgW" secondAttribute="top" id="Pxx-wq-zAz"/>
+                        <constraint firstAttribute="width" constant="318" id="g5i-00-Fyn"/>
+                        <constraint firstItem="fZW-Y5-ilK" firstAttribute="leading" secondItem="53d-OO-CgW" secondAttribute="leading" constant="8" id="knf-yl-zfc"/>
+                        <constraint firstAttribute="trailing" secondItem="BmU-O4-K29" secondAttribute="trailing" id="uAj-s1-DIC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.62745098039215685" green="0.62745098039215685" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lyo-c4-Y4v" secondAttribute="trailing" id="1He-fP-Ls0"/>
+                <constraint firstItem="lyo-c4-Y4v" firstAttribute="top" secondItem="JLZ-gi-HrJ" secondAttribute="top" id="AHg-XI-6ml"/>
+                <constraint firstItem="53d-OO-CgW" firstAttribute="centerX" secondItem="FoL-4j-daR" secondAttribute="centerX" id="IPH-JB-0Yc"/>
+                <constraint firstItem="lyo-c4-Y4v" firstAttribute="leading" secondItem="JLZ-gi-HrJ" secondAttribute="leading" id="Ie8-b6-coF"/>
+                <constraint firstAttribute="trailing" secondItem="FoL-4j-daR" secondAttribute="trailing" id="Jwn-1v-8lj"/>
+                <constraint firstAttribute="bottom" secondItem="Asc-Yr-Qn3" secondAttribute="bottom" constant="10" id="MBG-MG-TAD"/>
+                <constraint firstItem="yHS-sd-KLC" firstAttribute="leading" secondItem="BBs-D5-isf" secondAttribute="trailing" constant="5" id="Sii-7R-l3r"/>
+                <constraint firstItem="FoL-4j-daR" firstAttribute="leading" secondItem="JLZ-gi-HrJ" secondAttribute="leading" id="YJ8-BK-unD"/>
+                <constraint firstItem="FoL-4j-daR" firstAttribute="top" secondItem="lyo-c4-Y4v" secondAttribute="bottom" constant="15" id="azR-vU-s9A"/>
+                <constraint firstItem="BBs-D5-isf" firstAttribute="leading" secondItem="Asc-Yr-Qn3" secondAttribute="trailing" constant="5" id="kF5-dh-GsD"/>
+                <constraint firstItem="53d-OO-CgW" firstAttribute="top" secondItem="FoL-4j-daR" secondAttribute="bottom" constant="45" id="mga-A4-1eQ"/>
+                <constraint firstItem="BBs-D5-isf" firstAttribute="centerX" secondItem="JLZ-gi-HrJ" secondAttribute="centerX" id="sTz-Zk-eUs"/>
+                <constraint firstItem="yHS-sd-KLC" firstAttribute="baseline" secondItem="Asc-Yr-Qn3" secondAttribute="baseline" id="t1U-r1-Jqh"/>
+                <constraint firstAttribute="bottom" secondItem="BBs-D5-isf" secondAttribute="bottom" constant="34" id="vY8-ta-E29"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="auditStatusIV" destination="fZW-Y5-ilK" id="YkO-YD-6S0"/>
+                <outlet property="flowProcess" destination="FoL-4j-daR" id="0UF-qJ-v49"/>
+                <outlet property="hshsContentView" destination="lyo-c4-Y4v" id="knF-eu-EjT"/>
+                <outlet property="reasonLabel" destination="BmU-O4-K29" id="Pif-6k-yRV"/>
+                <outlet property="stopBtn" destination="Asc-Yr-Qn3" id="ncy-fl-rKi"/>
+                <outlet property="update" destination="yHS-sd-KLC" id="4r3-Cw-wgM"/>
+            </connections>
+            <point key="canvasLocation" x="-385" y="81.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="newShop_2审核中" width="64" height="54"/>
+    </resources>
+</document>

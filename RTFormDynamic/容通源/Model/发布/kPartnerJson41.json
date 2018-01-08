@@ -1,0 +1,149 @@
+{
+    "partnerForm": [
+                    {
+                    "productOne": {
+                    "modelType": "RTFormEntityProductOne",
+                    "labIcon": "form_section_1",
+                    "labTitle": "1号场地",
+                    "labDetail": "1"
+                    }
+                    },
+                    {
+                    "modelType": "RTFormAreaCustomer",
+                    "fields": [
+                               {
+                               "modelType": "RTAreaFields1",
+                               "labTitle": "场地名称",
+                               "fieldPlaceholder": "富强面粉厂",
+                               "fieldRightIcon": "form_Picker",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0"
+                               },
+                               {
+                               "modelType": "RTAreaFields1",
+                               "labTitle": "场地权益",
+                               "fieldPlaceholder": "房产所有",
+                               "fieldRightStr": "权",
+                               "fieldRightIcon": "form_Picker",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0"
+                               },
+                               {
+                               "modelType": "RTAreaFields1",
+                               "labTitle": "场地原用途",
+                               "fieldPlaceholder": "厂房",
+                               "fieldRightStr": "用途",
+                               "fieldRightIcon": "form_Picker",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0"
+                               },
+                               {
+                               "modelType": "RTAreaFields1",
+                               "labTitle": "场地原用途所属行业",
+                               "fieldPlaceholder": "职能食品厂",
+                               "fieldRightStr": "行业",
+                               "fieldRightIcon": "form_Picker",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0"
+                               },
+                               {
+                               "modelType": "RTAreaFields1",
+                               "labTitle": "场地面积区间段",
+                               "fieldPlaceholder": "300~400",
+                               "fieldRightStr": "平米",
+                               "fieldRightIcon": "form_Picker",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0"
+                               },
+                               {
+                               "modelType": "RTAreaFields1",
+                               "labTitle": "场地具体面积",
+                               "fieldPlaceholder": "344.43",
+                               "fieldRightStr": "平米",
+                               "fieldRightIcon": "form_pen",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0"
+                               },
+                               {
+                               "modelType": "RTAreaFieldsLocation",
+                               "labTitle": "场地所在地理位置",
+                               "fieldPlaceholder": "344.43",
+                               "fieldRightStr": "平米",
+                               "fieldRightIcon": "form_pen",
+                               "fieldIsAttri": 0,
+                               "fieldBtmLineVisbile": 1,
+                               "fieldPosition": "0"
+                               }
+                               ]
+                    },
+                    {
+                    "modelType": "RTFormAreaCapital",
+                    "areaCapital":{
+                    "modelType": "RTFormSubCapital232",
+                    "capitalHeader": {
+                    "modelType": "RTFormSubAreaCapitalHeader",
+                    "labTitle": "1号场地",
+                    "attriStr": "1号场地",
+                    "labStr": "权益凭证证照",
+                    "labIcon": "",
+                    "labDetail": "富强粉加工厂·场地资本"
+                    },
+                    "items":[
+                             {
+                             "modelType": "RTFormAreaCapacitiveItemOne",
+                             "labTitle": "填写下面密档1号·图文绘声绘色商业篇里的提纲(密档文案中各组图文内容的标题,作为密档文案的提纲)",
+                             "fieldPlaceholder": "密档1号·提纲eg:1营业执照;2ICP许可证;3网络文化许可证;4食品生产许可证;5智慧成果发明专利证书;6软件著作权;7保健品生产主体资格;8其它政府许可证书",
+                             "fieldRightIcon": "form_pen",
+                             "fieldIsAttri": 0,
+                             "fieldBtmLineVisbile": 1,
+                             "fieldPosition": "0",
+                             "attriStr": "密档1号·图文;提纲;密档文案中各组图文内容的标题"
+                             },
+                             {
+                             "modelType": "RTFormAreaCapacitiveItemOne",
+                             "labTitle": "上述提纲中的场地权益证照中确定的,场地权益使用期限:",
+                             "fieldPlaceholder": "自2017年5月1日开始至2027年10月30日止;共计10年零5月 剩余1年零5月 已使用1年零5月",
+                             "fieldRightIcon": "form_Picker",
+                             "fieldIsAttri": 0,
+                             "fieldBtmLineVisbile": 1,
+                             "fieldPosition": "0",
+                             "attriStr": "共计10年零5月 剩余1年零5月 已使用1年零5月"
+                             },
+                             {
+                             "modelType": "RTFormAreaCapacitiveItemTwo",
+                             "labTitle": "绘声绘色商业篇编辑上述提纲所指明的密档1号·图文",
+                             "labDetail": "设置权限可见范围",
+                             "attriStr": "密档1号·图文",
+                             "labTitle2":"甜蜜蜜有机桃汁·营业执照;ICP许可证;网络文化许可证..."
+                             }
+                             ],
+                    "capacitiveFooter": {
+                    "modelType": "RTFormAreaCapacitiveFooter",
+                    "labTitle": "添加其它权益凭证证照",
+                    "labIcon": "form_add_doc",
+                    "attriStr":"权益凭证证照"
+                           }
+                        }
+                    },
+                    {
+                    "modelType": "RTFormFooter",
+                    "footer": {
+                    "modelType": "RTFormPartnerFooter",
+                    "items": [
+                              {
+                              "modelType": "RTFormPartnerFooter",
+                              "labIcon": "form_section_6",
+                              "labTitle": "添加其它号场地",
+                              "attriStr": "号场地"
+                              }
+                        ]
+                    }
+               }
+        ]
+}
